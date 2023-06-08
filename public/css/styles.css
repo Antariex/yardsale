@@ -179,6 +179,7 @@ body {
 .product-card {
     width: 240px;
     margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 .product-card img {
