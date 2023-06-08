@@ -11,7 +11,7 @@
 }
 
 
-/*ESTILOS DEL BODY*/
+/*ESTILOS DEL BODY (vistas de email, login, my account, new account, password)*/
 body {
     font-family: 'Quicksand', sans-serif;
     margin: 0;
@@ -174,55 +174,58 @@ body {
     grid-template-columns: repeat(auto-fill, 240px);
     gap: 26px;
     place-content: center;
-  }
+}
 
-  .product-card {
+.product-card {
     width: 240px;
     margin-top: 8px;
-  }
+}
 
-  .product-card img {
+.product-card img {
     width: 240px;
     height: 240px;
     border-radius: 20px;
     object-fit: cover;
-  }
+}
 
-  .product-info {
+.product-info {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 12px;
-  }
+}
 
-  .product-info figure {
+.product-info figure {
     margin: 0;
-  }
-  .product-info figure img {
+}
+
+.product-info figure img {
     width: 35px;
     height: 35px;
-  }
+}
 
-  .product-info figure {
+.product-info figure {
     margin: 0;
-  }
-  .product-info figure img {
+}
+
+.product-info figure img {
     width: 35px;
     height: 35px;
-  }
+}
 
-  .product-info div p:nth-child(1) {
+.product-info div p:nth-child(1) {
     font-weight: bold;
     font-size: var(--md);
     margin-top: 0;
     margin-bottom: 4px;
-  }
-  .product-info div p:nth-child(2) {
+}
+
+.product-info div p:nth-child(2) {
     font-size: var(--sm);
     margin-top: 0;
     margin-bottom: 0;
     color: var(--very-light-pink);
-  }
+}
 
 
 /*ESTILOS MOBILE*/
@@ -253,14 +256,14 @@ body {
 
     .cards-container {
         grid-template-columns: repeat(auto-fill, 140px);
-      }
+    }
 
-      .product-card {
+    .product-card {
         width: 140px;
-      }
+    }
 
-      .product-card img {
+    .product-card img {
         width: 140px;
         height: 140px;
-      }
+    }
 }
