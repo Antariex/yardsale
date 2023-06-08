@@ -43,6 +43,12 @@ body {
     text-align: center;
 }
 
+.title2 {
+    font-size: var(--lg);
+    margin-bottom: 36px;
+    text-align: start;
+}
+
 .subtitle {
     color: var(--very-light-pink);
     font-size: var(--md);
@@ -115,6 +121,10 @@ body {
     margin-bottom: 22px;
 }
 
+.input-name, .input-email2, .input-password {
+    margin-bottom: 22px
+}
+
 .primary-button {
     background-color: var(--hospital-green);
     border-radius: 8px;
@@ -144,6 +154,11 @@ body {
     margin-bottom: 30px;
 }
 
+.create-button {
+    margin-top: 14px;
+    margin-bottom: 30px;
+}
+
 @media (max-width: 640px) {
     .logo {
         display: block;
@@ -157,5 +172,10 @@ body {
         position: absolute;
         bottom: 0;
         margin-bottom: 24px;
+    }
+
+    .create-button {
+        position: relative;
+        top: 50%;
     }
 }
