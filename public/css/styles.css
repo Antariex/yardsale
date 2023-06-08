@@ -107,6 +107,12 @@ body {
     margin-bottom: 4px;
 }
 
+.value {
+    color: var(--very-light-pink);
+    font-size: var(--md);
+    margin: 8px 0 32px 0;
+}
+
 .input {
     background-color: var(--text-input-field);
     border: none;
@@ -121,7 +127,9 @@ body {
     margin-bottom: 22px;
 }
 
-.input-name, .input-email2, .input-password {
+.input-name,
+.input-email2,
+.input-password {
     margin-bottom: 22px
 }
 
@@ -176,6 +184,11 @@ body {
 
     .create-button {
         position: relative;
-        top: 50%;
+        top: 26%;
+    }
+
+    .edit-button {
+        position: relative;
+        top: 32%;
     }
 }
