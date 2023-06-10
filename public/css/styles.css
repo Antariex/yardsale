@@ -232,6 +232,11 @@ body {
     margin-bottom: 24px;
 }
 
+.mobile-menu ul:nth-child(3) {
+    position: absolute;
+    bottom: 0;
+}
+
 .email {
     font-size: var(--sm) !important;
     font-weight: 300 !important;
