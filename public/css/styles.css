@@ -233,8 +233,8 @@ body {
 }
 
 .email {
-    font-size: var(--sm);
-    font-weight: 300;
+    font-size: var(--sm) !important;
+    font-weight: 300 !important;
 }
 
 .mobile-menu .sign-out {
