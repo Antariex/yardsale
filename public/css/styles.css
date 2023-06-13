@@ -317,6 +317,7 @@ nav {
 
 .navbar-email img {
     margin-left: 10px;
+    margin-right: 10px;
     transform: rotate(90deg);
 }
 
