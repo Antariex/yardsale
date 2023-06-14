@@ -1,4 +1,4 @@
-/*ESTILOS UNIVERSALES*/
+/*UNIVERSAL STYLES*/
 :root {
     --white: #FFF;
     --black: #000;
@@ -11,7 +11,7 @@
 }
 
 
-/*ESTILOS DEL BODY (vistas de email, login, my account, new account, password)*/
+/*BODY STYLES (views: email, login, my account, new account, password)*/
 body {
     font-family: 'Quicksand', sans-serif;
     margin: 0;
@@ -168,7 +168,7 @@ body {
 }
 
 
-/*ESTILOS DE MY ORDER*/
+/*MY ORDER VIEW STYLES*/
 .my-order {
     width: 100%;
     height: 100vh;
@@ -258,7 +258,7 @@ body {
 }
 
 
-/*ESTILOS DEL NAVBAR*/
+/*NAVBAR STYLES*/
 nav {
     display: flex;
     justify-content: space-between;
@@ -356,7 +356,7 @@ nav {
 }
 
 
-/*ESTILOS DEL MENU DESKTOP*/
+/*DESKTOP MENU STYLES*/
 .desktop-menu {
     width: 100px;
     height: auto;
@@ -395,7 +395,7 @@ nav {
 }
 
 
-/*ESTILOS DEL MENU MOBILE*/
+/*MOBILE MENU STYLES*/
 .mobile-menu {
     padding: 24px;
 }
@@ -436,7 +436,7 @@ nav {
 }
 
 
-/*ESTILOS DEL HOME*/
+/*HOME VIEW STYLES*/
 .cards-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, 240px);
@@ -497,7 +497,7 @@ nav {
 }
 
 
-/*ESTILOS DE PRODUCT DETAIL*/
+/*PRODUCT DETAIL VIEW STYLES*/
 .add-to-cart-button {
     display: flex;
     align-items: center;
@@ -505,31 +505,31 @@ nav {
 }
 
 .product-detail {
-    width: 350px;
+    width: 360px;
     padding-bottom: 24px;
     position: absolute;
     right: 0;
 }
 
 .product-detail-close {
-    background-color: var(--white);
-    position: absolute;
-    top: 24px;
-    left: 24px;
-    z-index: 2;
-    padding: 12px;
+    background: var(--white);
     width: 14px;
     height: 14px;
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    z-index: 2;
+    padding: 12px;
     border-radius: 50%;
 }
 
-.product-detail:hover {
+.product-detail-close:hover {
     cursor: pointer;
 }
 
 .product-detail>img:nth-child(2) {
-    width: 360px;
-    height: 100px;
+    width: 100%;
+    height: 360px;
     object-fit: cover;
     border-radius: 0 0 20px 20px;
 }
@@ -554,6 +554,7 @@ nav {
 
 .product-info {
     margin: 24px 24px 0 24px;
+    display: inline-block;
 }
 
 .product-info p:nth-child(1) {
@@ -578,7 +579,7 @@ nav {
 }
 
 
-/*CORRECCIONES PARA ESTILOS MOBILE*/
+/*MOBILE DEVICES STYLES ADJUSTS*/
 @media (max-width: 640px) {
     .logo {
         display: block;
