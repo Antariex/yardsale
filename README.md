@@ -1,6 +1,6 @@
 # Yardsale
 
-E-commerce realizado en el marco del curso práctico de Frontend Developer de la plataforma educativa Platzi.<br><br>El objetivo del proyecto es poner en práctica los conocimientos adquiridos de maquetación web (con HTML5 para la estructura y CSS3 para los estilos). El mismo ha sido construído pensado desde un inicio sus versiones desktop y mobile.<br><br>El proyecto ***Yardsale*** se irá desarrollando en etapas consecutivas:
+E-commerce realizado en el marco de la plataforma educativa Platzi.<br><br>El objetivo del proyecto es poner en práctica los conocimientos adquiridos de maquetación web (con HTML5 para la estructura y CSS3 para los estilos). El mismo ha sido construído pensado desde un inicio sus versiones desktop y mobile.<br><br>El proyecto ***Yardsale*** se irá desarrollando en etapas consecutivas:
 1) maquetación de vistas y partials con html y css - **(FINALIZADA)**
 2) interactividad y validaciones con JavaScript - **(EN DESARROLLO)**
 3) desarrollo de backend con peticiones a APIs y manejo de procesos asíncronos;
