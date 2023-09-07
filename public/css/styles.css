@@ -259,6 +259,10 @@ body {
 
 
 /*NAVBAR STYLES*/
+.inactive {
+    display: none;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -313,6 +317,11 @@ nav {
     color: var(--very-light-pink);
     font-size: var(--sm);
     margin-right: 25px;
+    cursor: pointer;
+}
+
+.navbar-email:hover {
+    color: var(--hospital-green) !important;
 }
 
 .navbar-email img {
@@ -363,6 +372,10 @@ nav {
     border: 1px solid var(--very-light-pink);
     border-radius: 6px;
     padding: 20px 20px 0 20px;
+    position: absolute;
+    top: 60px !important;
+    right: 50px ;
+    background-color: var(--white);
 }
 
 .desktop-menu ul {
