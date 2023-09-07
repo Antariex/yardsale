@@ -273,6 +273,7 @@ nav {
 
 .menu {
     display: none;
+    cursor: pointer;
 }
 
 .logo-navbar {
@@ -414,6 +415,16 @@ nav {
 /*MOBILE MENU STYLES*/
 .mobile-menu {
     padding: 24px;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: var(--white);
+    width: 50%;
+    border: 1px solid var(--very-light-pink);
+    border-radius: 0 0 6px 6px;
+    transition: .4s;
+    box-shadow: 5px 5px 10px var(--very-light-pink);
+    display: none;
 }
 
 .mobile-menu a {
@@ -727,4 +738,13 @@ nav {
     .product-detail2 {
         width: 100%;
     }
+
+    .desktop-menu {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+    
 }
