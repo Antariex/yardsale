@@ -608,10 +608,16 @@ nav {
 /*SHOPPING CART VIEW STYLES*/
 .product-detail2 {
     width: 360px;
-    padding: 24px;
+    padding: 0 24px;
     box-sizing: border-box;
     position: absolute;
+    top: 60px;
     right: 0;
+    background-color: var(--white);
+    border: 1px solid var(--very-light-pink);
+    border-radius: 0 0 6px 6px;
+    transition: .4s;
+    box-shadow: 5px 5px 10px var(--very-light-pink);
 }
 
 .title-container {
