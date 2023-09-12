@@ -50,6 +50,7 @@ function toggleCartAside() {
     productDetailContainer.classList.add('inactive');
   }
 
+  desktopMenu.classList.add('inactive');
   shoppingCartContainer.classList.toggle('inactive'); 
 }
 
