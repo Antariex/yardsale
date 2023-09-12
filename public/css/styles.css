@@ -278,7 +278,7 @@ nav {
 
 .logo-navbar {
     width: 100px;
-    margin-right: 2px;
+    margin-right: 12px;
 }
 
 .navbar-left {
@@ -419,7 +419,7 @@ nav {
     top: 60px;
     left: 0;
     background-color: var(--white);
-    width: 50%;
+    width: 82%;
     border: 1px solid var(--very-light-pink);
     border-radius: 0 0 6px 6px;
     transition: .4s;
@@ -500,15 +500,6 @@ nav {
     height: 35px;
 }
 
-.product-info figure {
-    margin: 0;
-}
-
-.product-info figure img {
-    width: 35px;
-    height: 35px;
-}
-
 .product-info div p:nth-child(1) {
     font-weight: bold;
     font-size: var(--md);
@@ -536,6 +527,11 @@ nav {
     padding-bottom: 24px;
     position: absolute;
     right: 0;
+    background-color: var(--white);
+    border: 1px solid var(--very-light-pink);
+    border-radius: 0 0 6px 6px;
+    transition: .4s;
+    box-shadow: 5px 5px 10px var(--very-light-pink);
 }
 
 .product-detail-close {
@@ -579,26 +575,26 @@ nav {
     background-color: var(--hospital-green);
 }
 
-.product-info {
+.product-info-detail {
     margin: 24px 24px 0 24px;
     display: inline-block;
 }
 
-.product-info p:nth-child(1) {
+.product-info-detail p:nth-child(1) {
     font-weight: bold;
     font-size: var(--md);
     margin-top: 0;
     margin-bottom: 4px;
 }
 
-.product-info p:nth-child(2) {
+.product-info-detail p:nth-child(2) {
     color: var(--very-light-pink);
     font-size: var(--md);
     margin-top: 0;
     margin-bottom: 36px;
 }
 
-.product-info p:nth-child(3) {
+.product-info-detail p:nth-child(3) {
     color: var(--very-light-pink);
     font-size: var(--sm);
     margin-top: 0;
